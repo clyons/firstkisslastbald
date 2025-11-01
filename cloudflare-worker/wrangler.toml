@@ -5,3 +5,6 @@ compatibility_date = "2024-05-01"
 [[kv_namespaces]]
 binding = "fklb_hit_counter"
 id = "438b687bb95d4896b9b75c3221b96bd2"
+
+binding = "fklb_hit_counter_dev"
+preview_id = "4e5ee43f494d4263803076059482ea00"
