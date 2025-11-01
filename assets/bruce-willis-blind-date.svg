@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 203" role="img" aria-labelledby="title desc">
+  <title id="title">Bruce Willis and Kim Basinger pool kiss illustration</title>
+  <desc id="desc">Stylized scene inspired by the Blind Date (1987) pool kiss where a couple embraces waist-deep in aquamarine water.</desc>
+  <defs>
+    <linearGradient id="waterGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4ac3c4" />
+      <stop offset="1" stop-color="#1b6d6f" />
+    </linearGradient>
+    <linearGradient id="dressGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9f9f9" />
+      <stop offset="1" stop-color="#d0d0d0" />
+    </linearGradient>
+  </defs>
+  <rect width="360" height="203" fill="url(#waterGradient)" />
+  <ellipse cx="180" cy="170" rx="170" ry="40" fill="#135652" opacity="0.6" />
+  <path d="M148 96c-8 10-12 24-12 42 0 28 12 38 32 38h24c20 0 32-10 32-38 0-18-4-32-12-42z" fill="#7a4b2a" opacity="0.9" />
+  <path d="M144 78c10-14 32-24 36-24s26 10 36 24c10 14-8 28-36 28s-46-14-36-28z" fill="#5a3215" />
+  <path d="M150 82c-12 10-18 20-18 32 0 18 14 26 48 26s48-8 48-26c0-12-6-22-18-32z" fill="#d9a67b" />
+  <path d="M118 130c-10 0-20 6-24 16s-4 22 4 30c10 10 28 14 46 4l18-10-12-18c-10-14-16-22-32-22z" fill="url(#dressGradient)" opacity="0.9" />
+  <path d="M242 130c10 0 20 6 24 16s4 22-4 30c-10 10-28 14-46 4l-18-10 12-18c10-14 16-22 32-22z" fill="#7a5334" opacity="0.9" />
+  <path d="M154 116c-14-6-30 2-30 16 0 10 8 16 22 16 12 0 26-4 38-4 20 0 38 6 50 6 18 0 30-10 30-22 0-12-12-18-24-16-12 2-24 8-34 8-14 0-24-8-36-8-6 0-12 2-16 4z" fill="#f7eee9" opacity="0.8" />
+  <path d="M178 90c-6-10-2-24 8-28s20 2 24 12c6 10 2 24-8 28-10 6-20-2-24-12z" fill="#b57b50" opacity="0.9" />
+  <path d="M158 88c6-10 2-24-8-28s-20 2-24 12c-6 10-2 24 8 28 10 6 20-2 24-12z" fill="#d9a67b" opacity="0.9" />
+  <path d="M148 66c-4-10-2-22 10-28s32 0 40 10 6 22-4 28-22 8-32 4c-6-2-10-6-14-14z" fill="#2b1d16" opacity="0.85" />
+  <path d="M212 70c4-8 2-20-8-26s-26-6-36 2c-6 6-6 16 2 22 6 4 14 6 22 4 6-2 12-2 20-2z" fill="#442c1e" opacity="0.9" />
+  <circle cx="180" cy="28" r="8" fill="#ffe6d0" opacity="0.8" />
+  <path d="M120 38c-30 10-60 40-72 68 14-10 36-18 62-22-12 10-20 22-26 34 14-8 34-16 52-20-6 6-10 14-12 22 12-6 28-12 42-14 0-14-4-28-12-44 10 6 20 14 30 24-10-24-30-40-64-48z" fill="#f4fbfa" opacity="0.25" />
+  <path d="M240 38c30 10 60 40 72 68-14-10-36-18-62-22 12 10 20 22 26 34-14-8-34-16-52-20 6 6 10 14 12 22-12-6-28-12-42-14 0-14 4-28 12-44-10 6-20 14-30 24 10-24 30-40 64-48z" fill="#0f2f35" opacity="0.2" />
+</svg>
