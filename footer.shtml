@@ -1,0 +1,18 @@
+<footer>
+  <hr>
+  <div class="hit-counter-wrapper">
+    <div class="hit-counter" data-hit-counter data-digits="6" data-storage-key="fklb_hit_counter">
+      <span class="hit-counter-label" aria-hidden="true">Global Site Hits</span>
+      <span class="hit-counter-digits" data-hit-counter-digits aria-live="polite">000000</span>
+    </div>
+  </div>
+  <p style="font-size:0.8em; text-align:center;">
+    <a href="https://podcasts.apple.com/us/podcast/john-carpenters-ghosts-of-mars-live-w-nick-kroll/id409287913" target="_blank" rel="noopener noreferrer">
+      How Did This Get Made?
+    </a>
+    Concept and caretaking by
+    <a href="https://ciaranlyons.com" target="_blank" rel="noopener noreferrer">ciaranlyons.com</a>,
+    your ever-dazzled fan chronicler.
+  </p>
+</footer>
+<script defer src="/assets/js/hit-counter.js" data-endpoint="https://fklb-hit-counter.ciaran-lyons.workers.dev"></script>
