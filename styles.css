@@ -24,6 +24,37 @@ main {
   border: 3px double #ff0099;
 }
 
+.news-updates {
+  margin-top: 2rem;
+}
+
+.news-updates h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.news-updates ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.news-updates li {
+  background: rgba(255, 0, 153, 0.15);
+  border: 2px solid #ffcc00;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 0, 153, 0.4);
+}
+
+.news-updates li p {
+  margin: 0.5rem 0 0;
+  line-height: 1.4;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
