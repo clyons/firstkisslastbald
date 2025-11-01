@@ -70,22 +70,23 @@ Film nerds, HDTGM listeners, meme historians, and anyone who remembers “Best v
 
 Each item is a small, testable unit:
 
-1. **Initialize repo structure** (`index.html`, `/assets/`, `/actors/`, `/submit.html`)  
-2. **Add retro base styling** (tiled background, Comic Sans, `<marquee>`, `<blink>`)  
-3. **Implement hit counter mock** (localStorage or static increment)  
-4. **Seed actor pages** — Jason Statham and Bruce Willis  
-5. **Create actor index page** with filters for “First Kiss” / “Last Bald”  
-6. **Add submission form** with fields:  
-   - Name (actor/actress)  
-   - Movie or show  
-   - Category (First Kiss / Last Bald)  
-   - Comment box  
-7. **Connect form to Netlify or mock endpoint**  
-8. **Add About page and disclaimers**  
-9. **Add footer linking to HDTGM**  
-10. **Accessibility pass** (alt text, high contrast, pauseable marquees)  
-11. **Deploy to GitHub Pages**  
-12. **Add README badges and contributor guidelines**
+- [ ] **Initialize repo structure** (`index.html`, `/assets/`, `/actors/`, `/submit.html`)
+- [ ] **Add retro base styling** (tiled background, Comic Sans, `<marquee>`, `<blink>`)
+- [ ] **Implement hit counter mock** (localStorage or static increment)
+- [ ] **Seed actor pages** — Jason Statham and Bruce Willis
+- [ ] **Create actor index page** with filters for “First Kiss” / “Last Bald”
+- [ ] **Add submission form** with fields:
+  - Name (actor/actress)
+  - Movie or show
+  - Category (First Kiss / Last Bald)
+  - Comment box
+- [ ] **Connect form to Netlify or mock endpoint**
+- [ ] **Add About page and disclaimers**
+- [ ] **Add footer linking to HDTGM**
+- [ ] **Accessibility pass** (alt text, high contrast, pauseable marquees)
+- [x] **Deploy to GitHub Pages**
+- [ ] **Configure custom domain** `firstkisslastbald.com`
+- [ ] **Add README badges and contributor guidelines**
 
 ---
 
@@ -94,8 +95,8 @@ Each item is a small, testable unit:
 Development should follow the repo’s `issues` and `projects` boards:  
 - Each task → new issue → short branch → pull request → review → merge.  
 - Preview builds auto-deploy to a GitHub Pages staging branch.  
-- Main branch publishes live at:  
-  `https://<username>.github.io/first-kiss-last-bald`
+- Main branch publishes live at:
+  `https://firstkisslastbald.com`
 
 ---
 
