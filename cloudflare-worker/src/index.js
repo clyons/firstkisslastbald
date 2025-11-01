@@ -26,7 +26,7 @@ export default {
 
     const key = 'fklb:global-hit-count';
 
-    let currentValue = await env.HIT_COUNTER.get(key);
+    let currentValue = await env.fklb_hit_counter.get(key);
     if (currentValue === null) {
       currentValue = '0';
     }
@@ -38,7 +38,7 @@ export default {
 
     if (request.method === 'POST') {
       numericValue += 1;
-      await env.HIT_COUNTER.put(key, String(numericValue));
+      await env.fklb_hit_counter.put(key, String(numericValue));
     }
 
     return withCors(
