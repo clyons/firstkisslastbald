@@ -91,9 +91,10 @@ figure.dossier-figure {
 }
 
 figure.dossier-figure img {
-  width: 100%;
+  width: 90%;
   height: auto;
   display: block;
+  margin: 0.5rem auto;
   border: 2px solid #00f5ff;
 }
 
@@ -102,6 +103,8 @@ figure.dossier-figure figcaption {
   font-size: 0.85rem;
   font-style: italic;
   color: #ffe0f7;
+}
+
 .hit-counter-wrapper {
   text-align: center;
   margin: 2rem auto 1rem;
