@@ -1,0 +1,5 @@
+# Dependency directories
+node_modules/
+
+# DS_Store and other user-specific files
+.DS_Store
