@@ -48,3 +48,27 @@ marquee {
   margin: 1rem 0;
   font-weight: bold;
 }
+
+figure.dossier-figure {
+  margin: 1.5rem auto;
+  max-width: 320px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 2px solid #ff66cc;
+  padding: 0.75rem;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(255, 0, 153, 0.4);
+}
+
+figure.dossier-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 2px solid #00f5ff;
+}
+
+figure.dossier-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #ffe0f7;
+}
