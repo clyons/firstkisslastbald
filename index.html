@@ -38,6 +38,13 @@
   </main>
   <footer>
     <hr>
+    <div class="hit-counter-wrapper">
+      <div class="hit-counter" data-hit-counter data-digits="6" data-storage-key="fklb_hit_counter">
+        <span class="hit-counter-label" aria-hidden="true">Global Site Hits</span>
+        <span class="hit-counter-digits" data-hit-counter-digits aria-live="polite">000000</span>
+      </div>
+      <p class="hit-counter-note">numbers lovingly served from our Cloudflare Worker, just like the web forgot.</p>
+    </div>
     <p style="font-size:0.8em; text-align:center;">
       Inspired by <i>How Did This Get Made?</i> — created by fans, not affiliated.<br>
       concept by <a href="https://ciaranlyons.com" target="_blank" rel="noopener noreferrer">ciaranlyons.com</a>.
@@ -47,5 +54,7 @@
       </a>.
     </p>
   </footer>
+  <!-- Update data-endpoint with the deployed Cloudflare Worker URL -->
+  <script defer src="assets/js/hit-counter.js" data-endpoint="https://your-worker-subdomain.workers.dev/api/hit"></script>
 </body>
 </html>

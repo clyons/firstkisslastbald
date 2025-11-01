@@ -102,4 +102,46 @@ figure.dossier-figure figcaption {
   font-size: 0.85rem;
   font-style: italic;
   color: #ffe0f7;
+.hit-counter-wrapper {
+  text-align: center;
+  margin: 2rem auto 1rem;
+  color: #fffcdf;
+}
+
+.hit-counter {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  border: 3px inset #ffcc00;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(255, 0, 153, 0.6);
+}
+
+.hit-counter-label {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.85rem;
+  color: #ff66cc;
+}
+
+.hit-counter-digits {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  padding: 0.3rem 0.6rem;
+  background: linear-gradient(135deg, #000000 0%, #111133 100%);
+  border: 2px solid #33ff99;
+  border-radius: 4px;
+  color: #33ff99;
+  text-shadow: 0 0 6px rgba(51, 255, 153, 0.75);
+}
+
+.hit-counter-note {
+  font-size: 0.75rem;
+  font-style: italic;
+  margin-top: 0.75rem;
+  color: #ffe9a9;
 }
