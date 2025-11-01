@@ -102,6 +102,8 @@ figure.dossier-figure figcaption {
   font-size: 0.85rem;
   font-style: italic;
   color: #ffe0f7;
+}
+
 .hit-counter-wrapper {
   text-align: center;
   margin: 2rem auto 1rem;
@@ -115,8 +117,8 @@ figure.dossier-figure figcaption {
   gap: 0.5rem;
   padding: 1rem 1.5rem;
   border: 3px inset #ffcc00;
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow: 0 0 20px rgba(255, 0, 153, 0.6);
+  background: radial-gradient(circle at center, rgba(0, 40, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 65%);
+  box-shadow: 0 0 25px rgba(51, 255, 153, 0.6), 0 0 40px rgba(51, 255, 153, 0.35);
 }
 
 .hit-counter-label {
@@ -136,7 +138,8 @@ figure.dossier-figure figcaption {
   border: 2px solid #33ff99;
   border-radius: 4px;
   color: #33ff99;
-  text-shadow: 0 0 6px rgba(51, 255, 153, 0.75);
+  text-shadow: 0 0 6px rgba(51, 255, 153, 0.9), 0 0 12px rgba(51, 255, 153, 0.8);
+  box-shadow: inset 0 0 12px rgba(51, 255, 153, 0.6), 0 0 18px rgba(51, 255, 153, 0.35);
 }
 
 .hit-counter-note {
