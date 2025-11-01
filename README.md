@@ -92,11 +92,21 @@ Each item is a small, testable unit:
 
 ## ⚙️ Implement — How to Ship It
 
-Development should follow the repo’s `issues` and `projects` boards:  
-- Each task → new issue → short branch → pull request → review → merge.  
-- Preview builds auto-deploy to a GitHub Pages staging branch.  
+Development should follow the repo’s `issues` and `projects` boards:
+- Each task → new issue → short branch → pull request → review → merge.
+- Preview builds auto-deploy to a GitHub Pages staging branch.
 - Main branch publishes live at:
   `https://firstkisslastbald.com`
+
+### Pre-build step for GitHub Pages
+
+GitHub Pages doesn’t execute Server Side Includes, so the shared footer needs to be inlined before publishing. Run the build script to generate a deployable `dist/` folder with the footer markup baked into every HTML file:
+
+```bash
+npm run build
+```
+
+Deploy the contents of `dist/` to GitHub Pages (or copy them into the `gh-pages` branch) to ensure the footer appears everywhere in production.
 
 ---
 

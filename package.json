@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "node scripts/inline-footer.js"
+  },
   "devDependencies": {
     "wrangler": "^4.45.3"
   }
