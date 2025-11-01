@@ -1,0 +1,8 @@
+name = "fklb-hit-counter"
+main = "src/index.js"
+compatibility_date = "2024-05-01"
+
+[[kv_namespaces]]
+binding = "HIT_COUNTER"
+id = ""
+preview_id = ""
