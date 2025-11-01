@@ -115,6 +115,7 @@ Every page includes this footer:
     </a>.
   </p>
 </footer>
+```
 
 ## 🧩 Contributing
 
