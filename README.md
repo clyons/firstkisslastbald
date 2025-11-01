@@ -11,7 +11,7 @@ A deliberately ridiculous GeoCities-era fan site cataloguing two critical cinema
 2. **Last Bald** — their final appearance before they went bald on-screen.
 
 **Why:**  
-Born from a running joke on the *How Did This Get Made?* podcast, this project celebrates fandom, nostalgia, and the internet’s golden age of bad design.  
+Born from a joke on the *How Did This Get Made?* podcast, this project celebrates fandom, nostalgia, and the internet’s golden age of bad design.  
 It’s equal parts love letter and time capsule — an excuse to play with blinking text, MIDI music, and spinning GIFs while documenting an absurdly specific trivia niche.
 
 **Who it’s for:**  
@@ -70,7 +70,7 @@ Film nerds, HDTGM listeners, meme historians, and anyone who remembers “Best v
 
 Each item is a small, testable unit:
 
-- [ ] **Initialize repo structure** (`index.html`, `/assets/`, `/actors/`, `/submit.html`)
+- [x] **Initialize repo structure** (`index.html`, `/assets/`, `/actors/`, `/submit.html`)
 - [ ] **Add retro base styling** (tiled background, Comic Sans, `<marquee>`, `<blink>`)
 - [ ] **Implement hit counter mock** (localStorage or static increment)
 - [ ] **Seed actor pages** — Jason Statham and Bruce Willis
@@ -85,7 +85,7 @@ Each item is a small, testable unit:
 - [ ] **Add footer linking to HDTGM**
 - [ ] **Accessibility pass** (alt text, high contrast, pauseable marquees)
 - [x] **Deploy to GitHub Pages**
-- [ ] **Configure custom domain** `firstkisslastbald.com`
+- [x] **Configure custom domain** `firstkisslastbald.com`
 - [ ] **Add README badges and contributor guidelines**
 
 ---
