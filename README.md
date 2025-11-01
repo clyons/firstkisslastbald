@@ -109,9 +109,9 @@ Every page includes this footer:
   <hr>
   <p style="font-size:0.8em; text-align:center;">
     Inspired by <i>How Did This Get Made?</i> — created by fans, not affiliated.<br>
-    Concept by <b>[Your Name Here]</b>.  
+    concept by <a href="https://ciaranlyons.com" target="_blank" rel="noopener noreferrer">ciaranlyons.com</a>.  
     Listen to the original joke on the
-    <a href="https://www.earwolf.com/show/how-did-this-get-made/" target="_blank" rel="noopener noreferrer">
+    <a href="https://podcasts.apple.com/us/podcast/john-carpenters-ghosts-of-mars-live-w-nick-kroll/id409287913" target="_blank" rel="noopener noreferrer">
       How Did This Get Made? podcast
     </a>.
   </p>
